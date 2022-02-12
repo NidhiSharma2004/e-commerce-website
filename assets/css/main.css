@@ -6,8 +6,9 @@
 }
 html {
   font-size: 62.5%;
-  height: 100%;
-  width: 100vw;
+  height: 100vw;
+  width: 100%;
+  
   --primary-color: #d97b0c;
     --secondary-color: black;
   /* 1rem = 10px = 62.5% */
@@ -15,7 +16,7 @@ html {
 .main-container {
   height: 100%;
   width: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
   background-color: rgb(230, 227, 223);
 }
 .hero-section {
