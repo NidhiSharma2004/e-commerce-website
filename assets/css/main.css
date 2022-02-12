@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100vw;
+  --primary-color: #d97b0c;
+    --secondary-color: black;
+  /* 1rem = 10px = 62.5% */
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+.hero-section {
+  border: 2px solid;
+  background: var(--secondary-color);
+  width: 100%;
+}
+.header {
+  height: 6%;
+  display: flex;
+}
+.header .logo {
+}
+.header .logo img {
+  height: 20rem;
+  width: 49rem;
+}
+.header .searchbar {
+  width: 94rem;
+  height: 11rem;
+  margin: auto 61rem;
+}
+.header .searchbar #search {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.9rem;
+}
+.header .categories {
+  width: 116rem;
+  height: 12rem;
+  margin: auto -16rem;
+}
+.header .listitem {
+  display: flex;
+  width: 100%;
+  line-height: 12rem;
+  font-size: 3.6rem;
+  justify-content: space-around;
+}
+.header .listitem a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  transition: all .5s;
+}
+.icn {
+  color: var(--primary-color);
+  width: 7rem;
+  height: 8rem;
+  line-height: 22rem;
+  margin-left: 40rem;
+  font-size: 8rem;
+  cursor: pointer;
+}
+/* hover effect */
+.header .listitem a:hover {
+    color: var(--primary-color)
+}
