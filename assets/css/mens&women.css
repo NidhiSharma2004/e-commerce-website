@@ -1,0 +1,22 @@
+.mens-section{
+    background-color: var(--primary-color);
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    height: 106rem;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.mens-images{
+    width: 109rem;
+}
+.mens-images img{
+    width: 100%;
+}
+.mens-section-text{
+    color: white;
+    font-size: 25rem;
+}
+.mens-section-text .trending{
+    color: var(--secondary-color);
+}
