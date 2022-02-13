@@ -21,14 +21,16 @@
 }
 .upper-section .legal .terms{
     line-height: 7.6rem;
+    color: white;
 }
 .contact{
     font-size: 6rem;
     line-height: 11rem;
     letter-spacing: .6rem;
 }
-.contact span{
-    font-size: 7rem;
+.emailicn img, .phoneicn img, .instagramicn img{
+    width: 6rem;
+    margin-right: 2rem;
 }
 .appleStore, .playStore{
     width: 44rem;

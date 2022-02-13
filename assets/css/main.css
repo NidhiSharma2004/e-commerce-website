@@ -28,8 +28,6 @@ html {
   height: 6%;
   display: flex;
 }
-.header .logo {
-}
 .header .logo img {
   height: 20rem;
   width: 49rem;
@@ -38,11 +36,29 @@ html {
   width: 94rem;
   height: 11rem;
   margin: auto 61rem;
+  display: flex;
+  position: relative;
+}
+.header .searchbar i{
+  position: absolute;
+  margin-top: 2.7rem;
+  margin-left: 4rem;
+  font-size: 6rem;
+  color: var(--primary-color);
 }
 .header .searchbar #search {
   height: 100%;
   width: 100%;
   border-radius: 0.9rem;
+}
+.header .searchbar #search::placeholder{
+  font-size: 5rem;
+  padding: 9rem;
+}
+.header .searchbar #search:focus {
+  outline: none;
+  font-size: 5rem;
+  padding: 3rem;
 }
 .header .categories {
   width: 116rem;
