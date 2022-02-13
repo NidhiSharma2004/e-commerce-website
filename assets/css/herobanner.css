@@ -15,15 +15,13 @@
     background-color: var(--primary-color);
     position: relative;
     right: 0;
-    /* bottom: -13%; */
-    /* margin-top: 15rem; */
     bottom: -20rem;
     border-radius: 21rem 0rem 99rem 0rem;
 }
 .bannerImage{
     width: 201rem;
     height: 135rem;
-    bottom: -3rem;
+    bottom: 13rem;
     position: absolute;
     right: 55rem;
 }
@@ -38,4 +36,7 @@
     line-height: 27rem;
     text-align: center;
     font-size: 17rem;;
+}
+.textContainer .make, .textContainer .better{
+    color: var(--primary-color);
 }
