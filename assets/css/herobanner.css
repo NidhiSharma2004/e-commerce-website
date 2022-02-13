@@ -11,18 +11,19 @@
 }
 .yellowDiv{
     width: 289rem;
-    height: 75.6%;
+    height: 116rem;
     background-color: var(--primary-color);
     position: relative;
     right: 0;
-    bottom: -13%;
+    /* bottom: -13%; */
     /* margin-top: 15rem; */
+    bottom: -20rem;
     border-radius: 21rem 0rem 99rem 0rem;
 }
 .bannerImage{
     width: 201rem;
-    height: 141rem;
-    bottom: 11rem;
+    height: 135rem;
+    bottom: -5rem;
     position: absolute;
     right: 55rem;
 }
