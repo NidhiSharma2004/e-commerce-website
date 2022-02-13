@@ -6,21 +6,25 @@
 }
 html {
   font-size: 62.5%;
-  height: 100vw;
-  width: 100%;
-
+  /* height: 100vh;
+  width: 100%; */
   --primary-color: #d97b0c;
   --secondary-color: black;
-  /* 1rem = 10px = 62.5% */
+}
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .main-container {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(230, 227, 223);
 }
 .hero-section {
-  border: 2px solid;
   background: var(--secondary-color);
   width: 100%;
 }
@@ -28,7 +32,6 @@ html {
   /* height: 6%;
   display: flex; */
   height: 18rem;
-    border: 1px solid wheat;
     display: flex;
     padding: 1rem 4rem;
 }
