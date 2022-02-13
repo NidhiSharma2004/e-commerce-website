@@ -13,10 +13,11 @@
     width: 289rem;
     height: 75.6%;
     background-color: var(--primary-color);
-    position: absolute;
+    position: relative;
     right: 0;
-    margin-top: 15rem;
-    border-radius: 21rem 0rem 99rem 0rem
+    bottom: -13%;
+    /* margin-top: 15rem; */
+    border-radius: 21rem 0rem 99rem 0rem;
 }
 .bannerImage{
     width: 201rem;
